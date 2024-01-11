@@ -21,7 +21,7 @@
     &kp F17    &kp F20    &kp LSHFT  &kp Z     &kp X     &kp C     &kp V     &kp B                                   &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp RSHFT &kp UP    &kp PG_DN
     &kp F18    &kp F21    &kp LCTRL  &kp LWIN  &kp F22   &kp LALT  &kp SPACE                                         &kp SPACE &kp RALT  &kp F23   &kp RWIN  &kp RCTRL &kp LEFT  &kp DOWN  &kp RIGHT
             >;
-
+            
         };
     };
 };
