@@ -1,0 +1,12 @@
+file_format: "1"
+id: cheeseboard_v1
+name: Cheeseboard v1
+type: shield
+url: https://github.com/PoundOfCheese/zmk-config-cheeseboard_v1
+requires:
+  - pro_micro
+features:
+  - keys
+siblings:
+  - cheeseboard_v1_left
+  - cheeseboard_v1_right
