@@ -6,16 +6,16 @@
 
 
 /{
-    behaviors {
-        bootl: bootloader {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping_term_ms = <900>;
-            quick_tap_ms = <200>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&bootloader>;
-        };
-    };
+//    behaviors {
+//        bootl: bootloader {
+//            compatible = "zmk,behavior-hold-tap";
+//            #binding-cells = <2>;
+//            tapping_term_ms = <900>;
+//            quick_tap_ms = <200>;
+//            flavor = "tap-preferred";
+//            bindings = <&kp>, <&bootloader>;
+//        };
+//    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -40,7 +40,7 @@
         
         second_layer {
             bindings = <
-               &kp F16    &bootl ESC    &trans    &trans    &trans    &trans    &trans    &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &bootl HOME
+               &kp F16    &bootloader &trans    &trans    &trans    &trans    &trans    &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &bootloader HOME
                &kp F17    &trans     &trans    &trans    &trans    &trans    &trans    &trans              &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
                &kp F18    &trans     &trans    &trans    &trans    &trans    &trans                        &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
     &kp F13    &kp F19    &trans     &trans    &trans    &trans    &trans    &trans                        &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans    &trans
