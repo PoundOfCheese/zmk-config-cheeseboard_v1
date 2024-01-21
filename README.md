@@ -1,3 +1,3 @@
-Firmware for Cheeseboard v1
+# Firmware for Cheeseboard v1
 
 Project description and files [here](https://github.com/PoundOfCheese/Cheeseboard-v1).
