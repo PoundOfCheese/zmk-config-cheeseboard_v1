@@ -5,7 +5,7 @@
 #define RAISE 1
 
 
-// {
+/ {
 //    behaviors {
 //        bootl: bootloader {
 //            compatible = "zmk,behavior-hold-tap";
