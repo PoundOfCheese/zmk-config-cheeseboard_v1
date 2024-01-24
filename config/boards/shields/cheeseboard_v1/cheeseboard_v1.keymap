@@ -5,7 +5,7 @@
 #define RAISE 1
 
 
-{
+/ {
     behaviors {
         skq: sticky_key_quick_release {
             compatible = "zmk,behavior-sticky-key";
