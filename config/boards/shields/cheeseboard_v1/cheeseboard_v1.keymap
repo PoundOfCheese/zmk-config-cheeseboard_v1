@@ -58,7 +58,7 @@
         };
         boot_layer {
             bindings = <
-               &kp F16    &trans &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6              &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &kp PSCRN &kp C_PP &trans
+               &kp F16    &bootloader &kp F1    &kp F2    &kp F3    &kp F4    &kp F5    &kp F6              &kp F7    &kp F8    &kp F9    &kp F10   &kp F11   &kp F12   &kp PSCRN &kp C_PP &bootloader
                &kp F17    &trans     &trans &trans &kp N3  &kp N4    &kp N5    &kp N6              &kp N7    &kp N8    &kp N9    &kp N0    &kp MINUS &kp EQUAL &kp BSPC  &kp END
                &kp F18    &kp TAB    &kp Q     &kp W     &kp E     &kp R     &kp T                         &kp Y     &kp U     &kp I     &kp O     &kp P     &kp LBKT  &kp RBKT  &kp BSLH  &kp DEL
     &kp F13    &kp F19    &caps_word &kp A     &kp S     &kp D     &kt F    &kp G                         &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp APOS  &kp ENTER &kp INS   &kp PG_UP
