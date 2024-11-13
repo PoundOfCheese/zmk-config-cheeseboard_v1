@@ -57,7 +57,7 @@
             , <&key_physical_attrs 100 100 1800  200       0     0     0> // end row 4 R
             , <&key_physical_attrs 100 100    0  300       0     0     0>
             , <&key_physical_attrs 100 100  100  300       0     0     0>
-            , <&key_physical_attrs 175 100  275  300       0     0     0>
+            , <&key_physical_attrs 175 100  200  300       0     0     0>
             , <&key_physical_attrs 100 100  375  300       0     0     0>
             , <&key_physical_attrs 100 100  475  300       0     0     0>
             , <&key_physical_attrs 100 100  575  300       0     0     0>
