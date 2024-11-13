@@ -1,13 +1,17 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "cheeseboard_v1_layout.dtsi"
 
+&transform_base_layout {
+    transform = <&transform_base>;
+};
+
 / {
     chosen {
         zmk,kscan = &kscan0;
-        // zmk,matrix_transform = &default_transform;
+        zmk,physical-layout = &transform_base_layout;
     };
 
-    default_transform: keymap_transform_0 {
+    transform_base: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <17>;
         rows = <5>;
