@@ -1,6 +1,6 @@
 #include "cheeseboard_v1.dtsi" // Notice that the main dtsi files are included in the overlay.
 
-&default_transform { // The matrix transform for this board is 7 columns over because the left half is 7 columns wide according to the matrix.
+&transform_base { // The matrix transform for this board is 7 columns over because the left half is 7 columns wide according to the matrix.
     col-offset = <8>;
 };
 
